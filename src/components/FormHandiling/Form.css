@@ -1,0 +1,34 @@
+body{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+input{
+  padding: 20px;
+  font-size: 25px;
+  margin: 30px;
+}
+
+label{
+  padding: 20px;
+  font-size: 25px;
+  display: inline-block;
+}
+
+button{
+  padding: 10px 40px;
+  margin-left: 20%;
+  margin-top: 30px;
+  background-color: steelblue;
+  font-size: 28px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: border 0.15s, background-color 0.5s;
+}
+
+button:focus{
+  border: 2px solid tomato;
+  background-color: white;
+}

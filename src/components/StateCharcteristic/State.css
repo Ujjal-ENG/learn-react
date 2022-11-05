@@ -1,0 +1,27 @@
+button{
+  padding: 15px;
+  background-color: steelblue;
+  margin: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  border: 1px solid green;
+  border-radius: 10px;
+}
+
+
+button:disabled{
+  color: red;
+  background-color: white;
+  border: 1px solid greenyellow;
+  border-radius: 10px;
+  cursor: none;
+}
+
+h1{
+  width: 300px;
+  text-align: center;
+  padding: 15px;
+  display: block;
+}

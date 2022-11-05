@@ -1,0 +1,27 @@
+body{
+  margin: 0;
+  box-sizing: border-box;
+}
+.inputfield{
+  padding: 10px;
+  margin: 20px;
+  font-size: 20px;
+  border: 3px solid yellowgreen;
+}
+button{
+  padding: 15px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+p{
+  display: inline;
+  font-size: 35px;
+  color: red;
+  font-weight: bold;
+  padding: 10px;
+}
