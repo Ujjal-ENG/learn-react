@@ -1,0 +1,30 @@
+.todo {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  flex-wrap: wrap;
+  flex-basis: content;
+  background-color: black;
+  margin: 10px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  transition: font-size 0.5s;
+}
+.todo h1:hover,
+p:hover {
+  background-color: rgb(41, 39, 39);
+  font-size: larger;
+  cursor: pointer;
+}
+.btn {
+  margin-top: 30px;
+  font-size: 25px;
+  color: red;
+  background-color: black;
+  cursor: pointer;
+  transition: font-size 0.5s;
+}
+
+.btn:active {
+  font-size: 30px;
+}

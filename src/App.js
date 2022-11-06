@@ -1,12 +1,10 @@
 import React from "react";
-import Home from "./components/DataTransaferTecnique/Home";
-
-
+import Toggle from "./components/Toggle/Toggle";
 
 function App() {
   return (
     <>
-      <Home />
+      <Toggle />
     </>
   );
 }

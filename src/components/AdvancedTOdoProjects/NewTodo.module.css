@@ -1,0 +1,56 @@
+.formField {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-basis: content;
+  padding: 20px;
+  background-color: #333;
+  margin: 10px;
+  border-radius: 10px;
+  width: 50%;
+}
+
+input {
+  width: 600px;
+  border-radius: 10px;
+  font-size: larger;
+  padding: 10px;
+}
+.titleField label {
+  color: white;
+  margin-right: 40px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.descriptionField textarea {
+  width: 400px;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-size: larger;
+  padding: 10px;
+  resize: none;
+}
+.descriptionField label {
+  color: white;
+  text-align: center;
+  margin-right: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.btn {
+  padding: 10px 150px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+
+.btn:active {
+  background-color: greenyellow;
+  font-size: larger;
+}
