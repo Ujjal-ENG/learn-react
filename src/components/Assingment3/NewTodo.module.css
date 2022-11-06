@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+form {
+  padding: 20px;
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+  line-height: 1px;
+  color: rgba(0, 255, 38, 0.654);
+}
+.title {
+  margin: 20px;
+}
+.title label {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+.title input {
+  display: block;
+  margin-top: 15px;
+  padding: 3px 30px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 300px;
+}
+.desc {
+  margin: 20px;
+}
+.desc label {
+  display: block;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.desc textarea {
+  display: block;
+  margin-top: 15px;
+  padding: 3px 30px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 300px;
+  resize: none;
+}
+
+.btn {
+  margin-left: 40px;
+}
+
+button {
+  padding: 10px 80px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: font-size 0.5s;
+}
+
+button:active {
+  background-color: greenyellow;
+  font-size: 25px;
+}

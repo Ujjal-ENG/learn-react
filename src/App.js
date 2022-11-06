@@ -1,10 +1,11 @@
 import React from "react";
-import Toggle from "./components/Toggle/Toggle";
+import Home from "./components/Assingment3/Home";
+
 
 function App() {
   return (
     <>
-      <Toggle />
+      <Home />
     </>
   );
 }

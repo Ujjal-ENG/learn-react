@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: content;
+  background-color: #333;
+}
+
+
+h1 {
+  color: white;
+  font-size: 50px;
+  letter-spacing: 10px;
+}

@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(231, 229, 229);
+  max-width: 100%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.6);
+}
+
+.container h2 {
+  color: rgb(199, 19, 19);
+  line-height: 1px;
+}
+.container p {
+  display: block;
+  color: black;
+  font-weight: bold;
+  line-height: 1px;
+}

@@ -1,0 +1,30 @@
+.ques {
+  background-color: white;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 400px;
+}
+
+h1 {
+  line-height: 1px;
+}
+
+p {
+  padding: 5px;
+}
+
+button {
+  font-size: 30px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  line-height: 0.5px;
+  transition: font-size 0.5s, p 1s;
+  margin-bottom: 15px;
+}
+
+button:active {
+  font-size: 35px;
+}
