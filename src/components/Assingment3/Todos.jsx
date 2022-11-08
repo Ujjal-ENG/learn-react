@@ -9,7 +9,7 @@ const Todos = (props) => {
     <>
       <div>
         {props.todosData.map((todo) => (
-          <Todo key={todo.id} {...todo.newTodo|| todo} />
+          <Todo key={todo.id} {...todo && todo.newTodo} />
         ))}
       </div>
     </>

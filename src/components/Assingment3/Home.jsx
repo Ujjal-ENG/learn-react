@@ -20,6 +20,7 @@ const todosData = [
 
 const Home = () => {
   const [newTodo, setNewTodo] = useState([]);
+
   const onTodo = (newTodo) => {
     setNewTodo((prevTodos) => {
       return [...prevTodos, { id: uuidv4(), newTodo }];
@@ -29,7 +30,7 @@ const Home = () => {
     <>
       <section>
         <NewTodo onTodo={onTodo} />
-        <Todos todosData={newTodo || todosData} />
+        <Todos todosData={newTodo && todosData} />
       </section>
     </>
   );

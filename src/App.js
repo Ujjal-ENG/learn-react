@@ -1,11 +1,10 @@
 import React from "react";
-import Home from "./components/Assingment3/Home";
-
+import DataFetch from "./components/CustomHooks/DataFetch";
 
 function App() {
   return (
     <>
-      <Home />
+      <DataFetch />
     </>
   );
 }
