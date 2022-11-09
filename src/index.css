@@ -1,25 +1,18 @@
-
-.icon-fa{
-  font-size: 50px;
-  color: white;
-  background-color: steelblue;
-  border-radius: 30px;
-  cursor: pointer;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  outline: none;
+  font-weight: 400;
 }
 
-.icon-you{
-  font-size: 50px;
-  margin-left: 20px;
-  background-color: white;
-  border-radius: 20px;
-  color: red;
-}
-
-.container{
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  flex-basis: content;
-  flex-wrap: wrap;
-  margin-bottom: 10px;
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 1rem 0;
 }

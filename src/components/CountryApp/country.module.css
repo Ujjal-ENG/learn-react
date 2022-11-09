@@ -1,0 +1,46 @@
+.country img {
+  border-radius: 10px;
+  height: 200px;
+  width: 300px;
+  cursor: pointer;
+  box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.country {
+  background-color: rgb(187, 159, 159);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  transition: all 1s;
+}
+
+.country:hover {
+  transform: scale(1.1);
+}
+img:hover {
+  box-shadow: 10px 30px 60px rgba(0, 0, 0, 0.9);
+}
+
+h3 {
+  text-align: center;
+}
+div .btn {
+  text-align: center;
+  margin-left: 15%;
+}
+
+.btn {
+  border: none;
+  border-radius: 0.6rem;
+  padding: 0.6rem;
+  cursor: pointer;
+  background-color: orange;
+  font-weight: bold;
+  font-size: 25px;
+  transition: all 0.3s;
+}
+
+.btn:active {
+  background-color: red;
+  color: black;
+}

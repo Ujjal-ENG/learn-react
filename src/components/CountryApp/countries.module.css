@@ -1,0 +1,9 @@
+.countries {
+  padding: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 20px;
+  justify-content: space-around;
+  flex-basis: content;
+}
