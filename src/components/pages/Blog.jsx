@@ -1,23 +1,14 @@
 import React from "react";
-import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
-
-import { blogsData } from "../../data";
+import { useLocation } from "react-router-dom";
 
 const Blog = () => {
-  const { title } = useParams();
-
-  const [bodyData, setBodyData] = useState("");
-
-  useEffect(() => {
-    const blogData = blogsData.filter((blog) => blog.title === title);
-    setBodyData(blogData[0].body);
-  }, []);
+  const loaction = useLocation();
+  console.log(loaction);
 
   return (
     <>
-      <h1>{`This is the ${title} page`}</h1>
-      <p>{bodyData.slice(0, 500)}</p>
+      <h1>{`This is the ${loaction.state.title} page`}</h1>
+      <p>{loaction.state.body.slice(0, 500)}</p>
     </>
   );
 };

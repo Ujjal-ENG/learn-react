@@ -5,8 +5,6 @@ import { NavLink } from "react-router-dom";
 import { blogsData } from "../../data";
 
 const Blogs = () => {
-
-
   const [blogs, setBlogs] = useState(blogsData);
 
   const trunCateString = (str, num) => {
@@ -27,7 +25,9 @@ const Blogs = () => {
             <article key={id}>
               <h3>{title}</h3>
               <p>{trunCateString(body, 100)}</p>
-              <NavLink to={title}>Learn More</NavLink>
+              <NavLink to={title} state={{ id, title, body }}>
+                Learn More
+              </NavLink>
             </article>
           );
         })}
