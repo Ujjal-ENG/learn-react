@@ -25,3 +25,13 @@ article {
   margin: 10px;
   background-color: aliceblue;
 }
+iframe {
+  border: none;
+  font-size: 100px;
+  align-items: center;
+  text-align: center;
+  width: 800px;
+  height: 700px;
+  margin-left: 25%;
+  src: url("https://embed.lottiefiles.com/animation/98642");
+}

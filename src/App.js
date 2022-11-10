@@ -9,6 +9,7 @@ import Contact from "./components/pages/Contact";
 import Error from "./components/pages/Error";
 import Navbar from "./components/pages/Navbar";
 import Blog from "./components/pages/Blog";
+import User from "./components/pages/User";
 function App() {
   return (
     <>
@@ -20,6 +21,7 @@ function App() {
           <Route path="/blogs/:title" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Error />} />
+          <Route path="/user" element={<User />} />
         </Routes>
       </Router>
     </>

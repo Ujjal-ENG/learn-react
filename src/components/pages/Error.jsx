@@ -4,6 +4,7 @@ const Error = () => {
   return (
     <>
       <h1>404 Page is not found</h1>
+      <iframe src="https://embed.lottiefiles.com/animation/98642" />
     </>
   );
 };
