@@ -46,6 +46,7 @@ const UserForm = ({ btnText, handleSubmitData, selectedUser }) => {
             required
           />
         </div>
+
         <div className="filed-group">
           <label htmlFor="email">Email: </label>
           <input
@@ -67,9 +68,9 @@ const UserForm = ({ btnText, handleSubmitData, selectedUser }) => {
 
 UserForm.defaultProps = {
   selectedUser: {
-    username: '',
-    email: ' '
-  }
-}
+    username: "",
+    email: " ",
+  },
+};
 
 export default UserForm;
