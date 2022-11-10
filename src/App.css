@@ -13,3 +13,15 @@ h1 {
   text-align: center;
   font-size: 3rem;
 }
+section {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-basis: content;
+  height: 300px;
+}
+
+article {
+  margin: 10px;
+  background-color: aliceblue;
+}
