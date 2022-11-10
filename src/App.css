@@ -13,18 +13,7 @@ h1 {
   text-align: center;
   font-size: 3rem;
 }
-section {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  flex-basis: content;
-  height: 300px;
-}
 
-article {
-  margin: 10px;
-  background-color: aliceblue;
-}
 iframe {
   border: none;
   font-size: 100px;
@@ -34,4 +23,41 @@ iframe {
   height: 700px;
   margin-left: 25%;
   src: url("https://embed.lottiefiles.com/animation/98642");
+}
+.card {
+  background-color: rgb(13, 13, 14);
+  color: white;
+  text-align: center;
+  width: 300px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+}
+.btn {
+  padding: 5px 10px;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: orange;
+}
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.filed-group{
+  margin: 10px;
 }
