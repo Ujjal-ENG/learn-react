@@ -1,12 +1,12 @@
 import React from "react";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import { blogsData } from "../../data";
 
 const Blogs = () => {
 
-  
+
   const [blogs, setBlogs] = useState(blogsData);
 
   const trunCateString = (str, num) => {
@@ -27,7 +27,7 @@ const Blogs = () => {
             <article key={id}>
               <h3>{title}</h3>
               <p>{trunCateString(body, 100)}</p>
-              <Link to={title}>Learn More</Link>
+              <NavLink to={title}>Learn More</NavLink>
             </article>
           );
         })}
