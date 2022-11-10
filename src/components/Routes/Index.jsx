@@ -41,7 +41,14 @@ const Index = () => {
               </Protected>
             }
           />
-          <Route path="/about" element={<About />} />
+          <Route
+            path="/about"
+            element={
+              <Protected isLogIn={isLogIn}>
+                <About />
+              </Protected>
+            }
+          />
           <Route path="/*" element={<Error />} />
         </Routes>
       </BrowserRouter>
