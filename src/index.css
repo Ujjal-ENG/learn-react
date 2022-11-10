@@ -1,0 +1,16 @@
+* {
+  padding: 1rem;
+}
+
+nav {
+  background-color: black;
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+}
+nav Link {
+  text-decoration: none;
+  color: white;
+}
