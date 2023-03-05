@@ -1,20 +1,7 @@
-import React from "react";
+import Clock from "./components/Clock";
 
-class Clock extends React.Component {
-  render() {
-    return (
-      <div>
-        <h1 className="header">
-          hello Japiaya Kopa Ujjal,{this.props.children}
-        </h1>
-        <h3>
-          The time is: {new Date().toLocaleTimeString(this.props.locale)}
-          <br></br>
-          {this.props.children}
-        </h3>
-      </div>
-    );
-  }
+function App() {
+  return <Clock locale="bn-BD">Mama Kopa Japiya</Clock>;
 }
 
-export default Clock;
+export default App;
