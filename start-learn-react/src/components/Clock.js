@@ -1,6 +1,18 @@
 import React from "react";
 
 class Clock extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { date: new Date() };
+  }
+
+  componentDidMount() {
+    setInterval(() => {
+      this.setState({
+        date: new Date(),
+      });
+    }, 1000);
+  }
   render() {
     return (
       <div>
@@ -8,7 +20,7 @@ class Clock extends React.Component {
           hello Japiaya Kopa Ujjal,{this.props.children}
         </h1>
         <h3>
-          The time is: {new Date().toLocaleTimeString(this.props.locale)}
+          The time is: {this.state.date.toLocaleTimeString(this.props.locale)}
           <br></br>
           {this.props.children}
         </h3>
