@@ -1,10 +1,14 @@
+import React from "react";
 
-function App() {
-  return (
-    <div className="App">
-   
-    </div>
-  );
+class Clock extends React.Component {
+  render() {
+    return (
+      <div>
+        <h1 className="header">hello Japiaya Kopa Ujjal,time the bolto</h1>
+        <h3>The time is: {new Date().toLocaleTimeString(this.props.locale)}</h3>
+      </div>
+    );
+  }
 }
 
-export default App;
+export default Clock;
